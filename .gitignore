@@ -1,0 +1,25 @@
+# Ignore log files & error outputs
+*.log
+*.err
+*.out
+
+# Ignore dummy typo files
+--backend
+--dataset
+--model
+--output-excel
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore backup files
+*.save
+*.save.1
+
+# (OPSIONAL) Ignore dataset asli kalau lo gak mau datanya publik
+Dataset_Evaluasi_LLM_Classifier_Teta (1).xlsx
+
+# Ignore folder/file berat lainnya
+ollama_local/
+c:\mental\teta_experiment\05_guardrails\hasil_evaluasi.xlsx

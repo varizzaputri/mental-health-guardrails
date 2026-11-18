@@ -1,0 +1,14 @@
+# Dependensi Dasar untuk Evaluasi Guard Teta
+pandas>=2.0.0
+openpyxl>=3.1.0
+requests>=2.31.0
+numpy>=1.26.0
+
+# Backend OpenAI / vLLM (opsional)
+openai>=1.0.0
+
+# Backend Transformers / HuggingFace GPU (opsional, untuk Qwen3Guard / SEALGuard)
+# Instal PyTorch dengan CUDA terlebih dahulu:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# transformers>=4.45.0
+# accelerate>=0.30.0
